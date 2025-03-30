@@ -1,0 +1,2227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		
+		
+		<title>Paras Web</title>
+		
+		
+		<!--=====================================================
+			CSS Stylesheets
+		=====================================================-->
+		<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css' >
+		<link rel='stylesheet' type='text/css' href='css/linea.css' >
+		<link rel='stylesheet' type='text/css' href='css/ionicons.min.css' >
+		<link rel='stylesheet' type='text/css' href='css/owl.carousel.css' >
+		<link rel='stylesheet' type='text/css' href='css/magnific-popup.css' >
+		<link rel='stylesheet' type='text/css' href='css/style.css' >
+
+		<style>
+		a { color: inherit; } 
+
+		</style>
+	
+	<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+	</script>
+	
+	<script type="text/javascript">
+	(function(){
+		emailjs.init({
+			publicKey: "VKkvrnC7ax277ofno",
+		});
+	})();
+	</script>
+	<script>
+		function submitForm(form) {
+			let parms = {
+				name :form.name.value,
+				email : form.email.value, 
+				subject : form.subject.value,
+				message : form.message.value
+			};
+			console.log(parms);
+			emailjs.send("service_whs4qaa", "template_k0tuqbs", parms).then(alert("Email Sent!!"));
+			form.reset();
+			//location.reload();
+			return false;
+		}
+	</script>
+
+	<!--
+	<script>
+		function submitForm(form) {
+			window.location.href("mailto:parasy787898@gmail.com?subject=Mail%20From%20Website&body=Name:%20" + form.name.value + "%20%20%20Email:%20" + form.email.value+"%20%20%20Subject:%20"+form.subject.value+ "%20%20%20Message:%20" +form.message.value  );
+			form.reset();
+			location.reload();
+			return false; /* cancel submit or else page reloads */
+		}
+	</script> -->
+
+	</head>
+	<body>
+		
+		
+		<!--=====================================================
+			Preloader
+		=====================================================-->
+		<div id='preloader' >
+			<div class='loader' ></div>
+			<div class='left' ></div>
+			<div class='right' ></div>
+		</div>
+		
+		
+		<div class='main-content' >
+			
+			<!--=====================================================
+				Page Borders
+			=====================================================-->
+			<div class='page-border border-left' ></div>
+			<div class='page-border border-right' ></div>
+			<div class='page-border border-top' ></div>
+			<div class='page-border border-bottom' ></div>
+			
+			
+			
+			<!--=====================================================
+				Menu Button
+			=====================================================-->
+			<a href='#' class='menu-btn' >
+				<span class='lines' >
+					<span class='l1' ></span>
+					<span class='l2' ></span>
+					<span class='l3' ></span>
+				</span>
+			</a>
+			
+			
+			<!--=====================================================
+				Menu
+			=====================================================-->
+			<div class='menu' >
+				<div class='inner' >
+					<ul class='menu-items' >
+						
+						<li>
+							<a href='#' class='section-toggle' data-section='intro' >
+								Home
+							</a>
+						</li>
+						
+						<li>
+							<a href='#about' class='section-toggle' data-section='about' >
+								About
+							</a>
+						</li>
+						
+						<li>
+							<a href='#resume' class='section-toggle' data-section='resume' >
+								Resume
+							</a>
+						</li>
+						<!--
+						<li>
+							<a href='#portfolio' class='section-toggle' data-section='portfolio' >
+								Portfolio
+							</a>
+						</li>
+						-->
+						
+						<li>
+							<a href='#contact' class='section-toggle' data-section='contact' >
+								Contact
+							</a>
+						</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+			
+			<div class='animation-block' ></div>
+			
+			
+			<!--=====================================================
+				Sections
+			=====================================================-->
+			<div class='sections' >
+				
+				<!--=====================================================
+					Main Section
+				=====================================================-->
+				<section id='intro' class='section section-main active' >
+					
+					<div class='container-fluid' >
+						
+						<div class='v-align' >
+							<div class='inner' >
+								<div class='intro-text' >
+									
+									<h1>I'm Paras Yadav</h1>
+									
+									<p>
+										"A proactive developer with a strong focus on problem-solving,<br> collaboration, and continuous improvement."									</p>
+									
+									<div class='intro-btns' >
+										
+										<a href='#about' class='btn-custom section-toggle' data-section='about' >
+											Discover More
+										</a>
+										
+										<a href='#contact' class='btn-custom section-toggle' data-section='contact' >
+											Contact Me
+										</a>
+										
+									</div>
+									
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+				
+				</section>
+				
+				
+				<!--=====================================================
+					About Section
+				=====================================================-->
+				<section id='about' class='section about-section border-d' >
+					
+					<div class='section-block about-block' >
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								<h2>
+									I'm a <strong class='color' >Programmer</strong>
+								</h2>
+							</div>
+							
+							<div class='row' >
+								
+								<div class='col-md-4' >
+									
+									<ul class='info-list' >
+										
+										<li>
+											<strong>Name:</strong>
+											<span>Paras Yadav</span>
+										</li>
+										
+										<li>
+											<strong>Age:</strong>
+											<span>24 Years</span>
+										</li>
+										
+										<li>
+											<strong>Current Location:</strong>
+											<span>Rewari, Haryana</span>
+										</li>
+										
+										<li>
+											<strong>Hometown:</strong>
+											<span>Rewari, Haryana</span>
+										</li>
+										<li>
+											<strong>Phone no.</strong>
+											<span>(+91) 9306271325</span>
+										</li>
+
+										
+									</ul>
+									
+								</div>
+								
+								<div class='col-md-8' >
+								
+									<div class='about-text' >
+										<p>
+
+
+											Currently working as a Salesforce Developer with over 2 years of hands-on experience at Cognizant, where I’ve developed expertise in Apex, Lightning Web Components (LWC), Visualforce, and Salesforce administration. With 5x Salesforce certifications, including Platform Developer I and Administrator, and over 20 Superbadges, I am committed to continuously advancing my skills and delivering innovative solutions.
+										</p>
+										<p>
+											I’ve worked on various web development projects, ranging from backend integrations to frontend features that improve user interaction. My experience includes developing and managing session-based functionality, integrating payment gateways, and adding social login options to enhance accessibility. I’ve also designed and implemented admin panels for content management, built custom databases, and created dynamic user interfaces for seamless user experiences. 										</p>	
+										<p>
+											I thrive in collaborative environments, always eager to learn and apply new skills to drive impactful results. I’m committed to leveraging the Salesforce platform to help businesses succeed.
+
+										</p>
+										
+										
+									</div>
+									
+									<div class='about-btns' >
+										
+										<a href='#resume' class='btn-custom btn-color section-toggle' data-section='resume' >
+											Resume
+										</a>
+										
+										<a href='#contact' class='btn-custom btn-color section-toggle' data-section='contact'>
+											Contact Me
+										</a>
+										
+									</div>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class='section-block services-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Services</strong></h2>
+								
+							</div>
+							
+							
+							
+							<div class='row' >
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='ion-ios-cloud-outline' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>Salesforce</h4>
+											
+											<p>
+												I specialize in Salesforce development, with expertise in Apex, Lightning Web Components, and process automation through Flows. I am proficient in building custom solutions to meet business needs. My experience also includes optimizing user experiences with custom UI/UX enhancements. I’m passionate about leveraging Salesforce to drive business success and streamline processes.										</p>
+											</p>
+										</div>
+										
+									</div>
+								</div>
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='ion-android-globe' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>Web Development</h4>
+											
+											<p>
+												I have extensive experience in full-stack web development, specializing in backend technologies like Django and PostgreSQL. I excel in creating dynamic, responsive web applications with seamless user experiences. My skills include integrating third-party APIs and optimizing performance. I’m dedicated to building scalable and efficient web solutions that meet business objectives.											</p>
+											</p>
+										</div>
+										
+									</div>
+								</div>
+
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='ion-bag' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>Shopify</h4>
+											
+											<p>
+												I have hands-on experience in developing and customizing Shopify stores to create seamless, user-friendly e-commerce experiences. I specialize in theme customization, setting up product catalogs, shipping workflows and app integrations for enhanced user engagement. I am helping businesses grow by providing tailored Shopify solutions that drive sales and customer satisfaction.
+											</p>
+											
+										</div>
+										
+									</div>
+								</div>
+								
+								
+								
+							</div>
+							
+							
+						</div>
+						
+					</div>
+					
+					<div class='section-block skills-block' >
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>
+									My <strong class='color' >Skills</strong>
+								</h2>
+								
+							</div>
+							
+							<div class='row' >
+								
+								<div class='col-md-6' >
+									
+									<div class='skill' >
+										
+										<h4>Salesforce  (LWC, Apex, Aura, VF pages)</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:90%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>SQL (MySQL , PostgreSQL, SOQL, SQL lite)</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:87%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>JavaScript</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:90%;' ></div>
+										</div>
+										
+									</div>
+									
+								</div>
+								
+								<div class='col-md-6' >
+									
+									<div class='skill' >
+										
+										<h4> Python (Django, FLask)</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:92%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>Shopify</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:89%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>HTML/CSS</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:90%;' ></div>
+										</div>
+										
+									</div>
+									
+								</div>
+								
+							</div>
+							
+							
+						</div>
+					</div>
+					
+				</section>
+				
+				
+				<!--=====================================================
+					Resume Section
+				=====================================================-->
+				<section id='resume' class='section resume-section border-d' >
+					
+					<div class='section-block timeline-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Experience</strong></h2>
+								
+							</div>
+							
+							<ul class='timeline' >
+													
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Salesforce Developer</h4>
+										
+										<em>
+											<span>Cognizant Technology Solutions India Pvt. Ltd.</span>
+											<span>Gurugram, HR</span>
+											<span>06/2023 – Current</span>
+										</em>
+										
+										<br>
+										<p>
+											Key Responsibility: Developing and maintaining Salesforce
+											customization through Apex, triggers, and Lightning components. Wrote unit
+											tests to validate code functionality and achieve optimal coverage. Implement
+											triggers to enforce business logic. Developed and enhanced Lightning Web
+											Components (LWC) and Apex. Ensuring functionality met client standards and
+											user requirements. Coordinated regular deployments within agile sprint
+											cycles, ensuring smooth application updates. Implemented UI/UX
+											improvements, optimized component functionalities. Worked on cloning and
+											testing components, resolving issues related to UI inconsistencies etc.
+										</p>
+										
+									</div>
+									
+								</li>
+					
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Salesforce Vlocity Intern</h4>
+										
+										<em>
+											<span>Cognizant Technology Solutions India Pvt. Ltd.</span>
+											<span>Gurugram, HR</span>
+											<span>02/2023 – 06/2023</span>
+										</em>
+										
+										<br>
+										<p>
+											Key Responsibility: Customizing and personalizing the Apps using Salesforce.com, Apex Classes, Triggers, Batches visualforce pages, Lightning Components, JavaScript and Generating different kind of reports & dashboards. Implementation of Standard Objects, Custom Objects, Custom Apps, different Page Layouts, Related Lists, Tabs, Validation Rules, Workflow Rules, Sharing Rules. Writing Unit tests code coverag		
+										</p>
+										
+									</div>
+									
+								</li>
+
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Backend Developer</h4>
+										
+										<em>
+											<span>Shackti Ayurvedics</span>
+											<span>Ghaziabad, UP</span>
+											<span>05/2021 - 06/2021</span>
+										</em>
+										
+										<p>
+											Shackti Ayurvedics is a leading Medicine Manufacturer. It is a GMP Certified Company and produces range of more than 20+ Products.
+										</p>
+										<br>
+										<p>
+											Key Responsibility: Creating Session based cookies (JavaScript) and cart based on user last login. Integrating Razor pay for online Payment Gateway. Adding Social User and Social login feature from Facebook and Google also creating Product description Database. Creating admin panel to customize Products, their availability, Users etc. Creating Contact Us page with links to all social media handles.		
+										</p>
+										
+									</div>
+									
+								</li>
+								
+																
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Web Developer</h4>
+										
+										<em>
+											<span>Board of School Education Haryana</span>
+											<span>Gudiani, Rewari, HR</span>
+											<span>12/2020 - 12/2020</span>
+										</em>
+
+										<p>Babu Bal Mukand Gupt Govt. Model Sanskriti Sr. Sec. School, Gudiani [2613]</p>
+									<br>
+
+										<p>
+											Key Responsibility: Creating Features Like Academic Calendar, Staff Info Pages, Curriculum Details according to BSEH, Student Report section, Fees Structure Infrastructure Details, Highlights, Notice board, Achievements etc.
+										
+											Creating admin panel to customize all the above mention Features, Users and Super Users as per their requirement. Used Django as Backend Framework and MySQL DB and Deployed website on Hostinger Server.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								
+
+
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Python Developer</h4>
+										
+										<em>
+											<span>Cppsecrets</span>
+											<span>Noida, UP</span>
+											<span>01/2020 - 03/2020</span>
+										</em>
+										
+										<p>
+											A platform for C++ and Python Engineers, where they can contribute their C++ and Python experience along with tips and tricks.
+										</p><br><p>
+											Made 40+ Projects in python with 33000+ views, 350+ likes and 8th Most Liked and Viewed Author. Projects on - Web scraping, pygame, Tkinter based GUI, Problem Solving, Encryption-Decryption, MySQL connector, Openpyxl, Instagram bots, Chat bot, Turtle Programming etc.
+										</p>
+										
+									</div>
+									
+								</li>
+
+								
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+	
+					<div class='section-block portfolio-block'  >
+						
+						<div class='container-fluid' >
+							
+							
+							<div class='section-header' >
+								<h2>My <strong class='color' >Achievement</strong></h2>
+							</div>
+							
+							<ul class='portfolio-filters' >
+								<li>
+									<a href='#' class='active' data-group='all' >
+										All
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='Salesforce' >
+										Salesforce
+									</a>
+								</li>
+
+								<li>
+									<a href='#' data-group='hackerrank' >
+										HackerRank
+									</a>
+								</li>
+
+								<li>
+									<a href='#' data-group='udemy' >
+										Udemy
+									</a>
+								</li>
+
+								<li>
+									<a href='#' data-group='certificate' >
+										Others
+									</a>
+								</li>
+
+							</ul>
+							
+
+
+
+							<!--
+							
+							<ul class='portfolio-items' >
+								
+								<li data-groups='["web","tech"]' >
+									<div class='inner' >
+										<img src='img/portfolio/1.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-1' class='view-project' >
+												View Project
+											</a>
+											
+											#project popup
+											<div id='popup-1' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													#project popup image
+													<img src='img/portfolio/1.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													#project popup title
+													<h4>My Project Title</h4>
+													
+													#project popup description
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+							-->
+
+							<ul class='portfolio-items' >
+								
+								<li data-groups='["Salesforce"]' >
+									<div class='inner' >
+										<img src="img/admin.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-1' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-1' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/admin.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Salesforce Certified Administrator</h4>
+													
+													<!--project popup description-->
+													<p>Salesforce Certified Administrators are experts in maximizing the potential of the Salesforce platform, continuously identifying ways to enhance business processes. They leverage their deep knowledge to optimize workflows, streamline user experiences, and ensure that organizations fully benefit from Salesforce’s powerful features and tools.</p>
+														
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["Salesforce"]' >
+									<div class='inner' >
+										<img src="img/js1.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-4' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-4' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/js1.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Salesforce Certified JavaScript Developer I</h4>
+													
+													<!--project popup description-->
+													<p> Certified JavaScript Developer I (JS1) professionals have hands-on experience in developing both front-end and back-end JavaScript applications for the web. They are proficient in using JavaScript frameworks and technologies, such as Lightning Web Components, to build dynamic, responsive, and scalable web applications. </p>
+														
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["Salesforce"]' >
+									<div class='inner' >
+										<img src="img/pd1.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-5' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-5' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/pd1.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Salesforce Certified Platform Developer I</h4>
+													
+													<!--project popup description-->
+													<p> Certified Platform Developer I (PD1) professionals are adept at building and deploying custom business logic and interfaces using the powerful programmatic features of the Salesforce platform. They are proficient in choosing between declarative and programmatic approaches, leveraging tools like Apex and Visualforce to extend platform capabilities and meet specific business needs. </p>
+														
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+							
+								<li data-groups='["Salesforce"]' >
+									<div class='inner' >
+										<img src="img/associate.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-3' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-3' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/associate.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Salesforce Certified Associate</h4>
+													
+													<!--project popup description-->
+													<p> Certified Associates have a solid understanding of how an integrated CRM platform bridges the gap between departments and customer data. With up to 6 months of hands-on Salesforce experience, they are equipped to support organizations in optimizing workflows and enhancing customer relationships. </p>
+														
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+							
+								<li data-groups='["Salesforce"]' >
+									<div class='inner' >
+										<img src="img/ai.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-2' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-2' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/ai.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Salesforce Certified AI Associate</h4>
+													
+													<!--project popup description-->
+													<p> Certified AI Associates are skilled in leveraging AI technologies to deliver insightful strategies and guide data-driven decisions. They ensure that AI solutions align with ethical standards and best practices, empowering organizations to make impactful, informed choices using trusted AI principles. </p>
+														
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["certificate"]' >
+									<div class='inner' >
+										<img src="img/codefree.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-7' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-7' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/codefree.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>freeCodeCamp Scientific Computing with Python</h4>
+													
+													<!--project popup description-->
+													<p> freeCodeCamp Scientific Computing with Python graduates have a strong foundation in using Python for solving complex scientific and mathematical problems. They are proficient in utilizing libraries like NumPy and Pandas to analyze data, perform calculations, and build efficient computational models. </p>
+														
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["hackerrank"]' >
+									<div class='inner' >
+										<img src="img/rest.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-10' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-10' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/rest.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>HackerRank Intermediate REST API</h4>
+													
+													<!--project popup description-->
+													<p> HackerRank Intermediate REST API developers have a solid understanding of designing and building RESTful services. They are skilled in implementing API endpoints, handling data requests, and integrating external services, ensuring seamless communication between systems and efficient data handling. </p>
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["hackerrank"]' >
+									<div class='inner' >
+										<img src="img/sql.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-p1' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-p1' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/sql.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>HackerRank SQL Intermediate</h4>
+													
+													<!--project popup description-->
+													<p> HackerRank SQL Intermediate developers have a solid understanding of database design and querying techniques. They are proficient in writing advanced SQL queries, using complex joins, subqueries, and optimizing database performance to efficiently manipulate and analyze large datasets. </p>
+														
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["hackerrank"]' >
+									<div class='inner' >
+										<img src="img/problem.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-p21' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-p21' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/problem.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>HackerRank Intermediate Problem Solving</h4>
+													
+													<!--project popup description-->
+													<p> HackerRank Intermediate Problem Solving professionals excel at tackling algorithmic challenges and optimizing solutions. They are skilled in applying data structures, algorithms, and problem-solving techniques to efficiently solve complex coding problems and enhance computational performance.
+													</p>
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["certificate"]' >
+									<div class='inner' >
+										<img src="img/aws.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-6' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-6' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/aws.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>AWS Builders Online Series</h4>
+													
+													<!--project popup description-->
+													<p> AWS Builder Series professionals have practical experience in building and deploying applications on the Amazon Web Services (AWS) platform. They are skilled in using AWS tools and services to create scalable, secure, and cost-effective solutions, helping organizations leverage the full potential of the cloud. </p>
+														
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["certificate"]' >
+									<div class='inner' >
+										<img src="img/Python_Shape_ai.png"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-13' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-13' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/Python_Shape_ai.png"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Python and Computer Vision 7 day Bootcamp</h4>
+													
+													<!--project popup description-->
+													<p> Participants of the 7-day Python and Computer Vision bootcamp by Shape AI gain hands-on experience in building and deploying computer vision models using Python. They learn to apply machine learning techniques for image processing, object detection, and computer vision applications, empowering them to tackle real-world challenges with AI solutions. </p>
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (1).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-14' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-14' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (1).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (2).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u2' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u2' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (2).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (3).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u3' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u3' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (3).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (4).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u4' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u4' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (4).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (5).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u5' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u5' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (5).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (6).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u6' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u6' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (6).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (7).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u7' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u7' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (7).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (8).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u8' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u8' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (8).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (9).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u9' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u9' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (9).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (10).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u10' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u10' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (10).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (11).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u11' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u11' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (11).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (12).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u12' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u12' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (12).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (13).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u13' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u13' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (13).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (14).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u14' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u14' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (14).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (15).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u15' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u15' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (15).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (16).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u16' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u16' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (16).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (17).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u17' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u17' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (17).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (18).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u18' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u18' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (18).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (19).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u19' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u19' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (19).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+								<li data-groups='["udemy"]' >
+									<div class='inner' >
+										<img src="img/udemy/  (20).jpg"alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-u20' class='view-project' >
+												View Item
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-u20' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src="img/udemy/  (20).jpg"alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>Udemy certificate</h4>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+
+
+
+							</ul>
+						</div>
+					</div>
+
+					
+					<div class='section-block timeline-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Education</strong></h2>
+								
+							</div>
+							
+							<ul class='timeline' >
+
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Computer Science & Engineering</h4>
+										
+										<em>
+											<span>Bachelor of Technology</span>
+											<span>Amity School of Engineering and Technology Noida, Uttar Pradesh</span>
+											<span>(2018-2022)</span>
+											
+										</em>
+										
+									</div>
+									
+								</li>
+
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Class XII</h4>
+										
+										<em>
+											<span>Suraj School Kosli</span>
+											<span>2016-2018</span>
+										</em>
+										
+									</div>
+									
+								</li>
+							
+								
+
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Class X</h4>
+										
+										<em>
+											<span>Suraj School Kosli</span>											<span>2014-2016</span>
+										</em>
+										
+									</div>
+									
+								</li>
+
+																
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+
+					
+
+					<!--
+					<div class='section-block testimonials-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Clients</strong></h2>
+								
+							</div>
+							
+							
+							<div class='testimonials-slider' >
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+							</div>
+							
+						</div>
+						
+					</div>
+					-->
+					
+				</section>
+				
+				
+				<!--=====================================================
+					Portfolio Section
+				=====================================================-->
+				<!--
+				<section id='portfolio' class='section portfolio-section border-d' >
+					
+					<div class='section-block portfolio-block' >
+						
+						<div class='container-fluid' >
+							
+							
+							<div class='section-header' >
+								<h2>My <strong class='color' >Works</strong></h2>
+							</div>
+							
+							<ul class='portfolio-filters' >
+								<li>
+									<a href='#' class='active' data-group='all' >
+										All
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='web' >
+										Web
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='tech' >
+										Tech
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='photography' >
+										Photography
+									</a>
+								</li>
+							</ul>
+							
+							<ul class='portfolio-items' >
+								
+								<li data-groups='["web","tech"]' >
+									<div class='inner' >
+										<img src='img/portfolio/1.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-1' class='view-project' >
+												View Project
+											</a>
+											
+											<div id='popup-1' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<img src='img/portfolio/1.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<h4>My Project Title</h4>
+													
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["tech","photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/2.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-2' class='view-project' >
+												View Project
+											</a>
+											
+											<div id='popup-2' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<img src='img/portfolio/2.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<h4>My Project Title</h4>
+													
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["web","photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/3.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-3' class='view-project' >
+												View Project
+											</a>
+											
+											<div id='popup-3' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<img src='img/portfolio/3.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<h4>My Project Title</h4>
+													
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+							</ul>
+							
+						</div>
+					
+					</div>
+					
+				</section>
+				
+				-->
+				<!--=====================================================
+					Contact Section
+				=====================================================-->
+				<section id='contact' class='section contact-section border-d' >
+					
+					<div class='section-block contact-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								<h2>Contact <strong class='color' >Me</strong></h2>
+							</div>
+							
+							
+							<div class='row' >
+							
+								<div class='col-md-8' >
+									
+									<div class='contact-form' >
+									
+										<form id='contact-form' data-toggle='validator' 
+										onsubmit="return submitForm(this);">
+										
+											<div id='contact-form-result' ></div>
+										
+											<div class='row' >
+												
+												<div class='col-md-6' >
+													<div class='form-group' >
+														
+														<input type='text' class='form-control' placeholder='Name' name='name' >
+														<div class='help-block with-errors' ></div>
+														
+													</div>												
+												</div>
+												
+												<div class='col-md-6' >
+													<div class='form-group' >
+														
+														<input type='email' class='form-control' placeholder='Email' name='email' >
+														<div class='help-block with-errors' ></div>
+													
+													</div>
+												</div>
+												
+											</div>
+											
+											<div class='form-group' >
+												
+												<input type='text' class='form-control' placeholder='Subject' name='subject' >
+												<div class='help-block with-errors' ></div>
+											
+											</div>
+											
+											<div class='form-group' >
+												
+												<textarea class='form-control' placeholder='Message' name='message' rows='5' ></textarea>
+												<div class='help-block with-errors' ></div>
+												
+											</div>
+											
+											<div class='form-group text-center' >
+												<button type='submit' class='btn-custom btn-color' >
+													Send Message
+												</button>
+											</div>
+											
+										</form>
+										
+									</div>
+									
+									
+								</div>
+								
+								<div class='col-md-4' >
+									
+									<div class='contact-info-icons' >
+										
+										<div class='contact-info' >
+											
+											<i class='ion-ios-telephone-outline' ></i>
+											
+											<p>
+												(+91) 9306271325<br>
+												(+91) 9466729680
+											</p>
+											
+										</div>
+										
+										
+										<div class='contact-info' >
+											
+											<i class='ion-ios-cloud-outline' ></i>
+											
+											<p>
+												<a href="https://www.linkedin.com/in/parasy" target="_blank"> Linked In </a> <br>
+												<a href="https://www.salesforce.com/trailblazer/pyadav7878" target="_blank">Trailhead </a>
+
+
+												
+											</p>
+											
+										</div>
+
+										<div class='contact-info' >
+											
+											<i class='ion-android-globe' ></i>
+											
+											<p>
+												<a href="https://www.hackerrank.com/profile/parasy787898" target="_blank"> Hacker Rank </a> <br>
+												<a href="https://www.linkedin.com/in/parasy" target="_blank"> Portfolio Website </a>
+												
+											</p>
+											
+										</div>
+										
+										
+										
+									</div>
+									
+									
+									
+								</div>
+								
+								
+							</div>
+							
+							
+							
+						</div>
+					
+					</div>
+					
+				</section>
+				
+			</div>
+			
+		</div>
+		
+		
+		<!--=====================================================
+			JavaScript Files
+		=====================================================-->
+		<script src='js/jquery.min.js' ></script>
+		<script src='js/jquery.shuffle.min.js' ></script>
+		<script src='js/owl.carousel.min.js' ></script>
+		<script src='js/jquery.magnific-popup.min.js' ></script>
+		<script src='js/validator.min.js' ></script>
+		<script src='js/script.js' ></script>
+		
+	</body>
+</html>
